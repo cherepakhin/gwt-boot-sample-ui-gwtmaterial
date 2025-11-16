@@ -12,7 +12,7 @@ Spring Boot нет. Приложение компилируется в js.
 
 Результат ![результат](/doc/gwt-boot-sample-ui-gwtmaterial_screen.png)
 
-![на телефоне](/doc/screen_phone.png)
+![на телефоне](/doc/screen_phone.jpg)
 
 __Устраивает.__
 
