@@ -1,6 +1,6 @@
-## Простое GWT приложения.
+## Простое GWT приложение.
 
-Spring Boot нет.
+Spring Boot нет. Приложение компилируется в js.
 
 ### Сборка:
 
@@ -8,7 +8,7 @@ Spring Boot нет.
 ./mvnw package
 ````
 
-Открыть в браузере [index.html](file:///home/vasi/prog/java/gwt/gwt-boot-samples/gwt-boot-sample-ui-gwtmaterial/target/gwt-boot-sample-ui-gwtmaterial-1.2.0-SNAPSHOT/gwtmaterial/index.html)
+Открыть в браузере [index.html](target/gwt-boot-sample-ui-gwtmaterial-1.2.0-SNAPSHOT/gwtmaterial/index.html)
 
 Результат ![результат](/doc/gwt-boot-sample-ui-gwtmaterial_screen.png)
 
