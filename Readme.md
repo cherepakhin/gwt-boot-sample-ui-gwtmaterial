@@ -1,3 +1,7 @@
+## Простое GWT приложения.
+
+Spring Boot нет.
+
 ### Сборка:
 
 ````shell
@@ -12,5 +16,7 @@ __Устраивает.__
 
 ### Размещение на сайте.
 
-После _mvn package_, содержимое target/gwt-boot-sample-ui-gwtmaterial-1.2.0-SNAPSHOT/gwtmaterial скопировать в папку __/var/www/main/gwt-boot-sample-ui-gwtmaterial__.<br/>
-Результат [https://v.perm.ru/gwt-boot-sample-ui-gwtmaterial/](https://v.perm.ru/gwt-boot-sample-ui-gwtmaterial/)
+После _mvn package_, содержимое target/gwt-boot-sample-ui-gwtmaterial-1.2.0-SNAPSHOT/gwtmaterial скопировать в папку __/var/www/main/gwtmaterial__.<br/>
+Имя папки __gwtmaterial__ указано в pom.xml в секции __build__.
+
+Результат [https://v.perm.ru/gwtmaterial/](https://v.perm.ru/gwtmaterial/)
