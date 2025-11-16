@@ -14,9 +14,9 @@ Spring Boot нет.
 
 __Устраивает.__
 
-### Размещение на сайте.
+### Размещение на сайте (apache2).
 
 После _mvn package_, содержимое target/gwt-boot-sample-ui-gwtmaterial-1.2.0-SNAPSHOT/gwtmaterial скопировать в папку __/var/www/main/gwtmaterial__.<br/>
-Имя папки __gwtmaterial__ указано в pom.xml в секции __build__.
+Имя папки __gwtmaterial__ указано в pom.xml в секции __build__, в конфигурации plugin __gwt-maven-plugin__.
 
 Результат [https://v.perm.ru/gwtmaterial/](https://v.perm.ru/gwtmaterial/)
