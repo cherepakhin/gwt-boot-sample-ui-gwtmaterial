@@ -12,6 +12,8 @@ Spring Boot нет. Приложение компилируется в js.
 
 Результат ![результат](/doc/gwt-boot-sample-ui-gwtmaterial_screen.png)
 
+![на телефоне](/doc/screen_phone.png)
+
 __Устраивает.__
 
 ### Размещение на сайте (apache2).
