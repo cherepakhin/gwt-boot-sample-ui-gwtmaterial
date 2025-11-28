@@ -28,16 +28,13 @@
 				<m:MaterialNavBrand text="Starter"/>
 				<m:MaterialNavSection float="RIGHT">
 					<m:MaterialTooltip text="Starter" position="BOTTOM">
-						<m:MaterialLink iconType="WHATSHOT"
-										iconPosition="NONE"/>
+						<m:MaterialLink iconType="WHATSHOT"	iconPosition="NONE"/>
 					</m:MaterialTooltip>
 					<m:MaterialTooltip text="Apps" position="BOTTOM">
-						<m:MaterialLink iconType="VIEW_MODULE"
-										iconPosition="NONE"/>
+						<m:MaterialLink iconType="VIEW_MODULE" iconPosition="NONE"/>
 					</m:MaterialTooltip>
 					<m:MaterialTooltip text="Notifications" position="BOTTOM">
-						<m:MaterialLink activates="sideNav"
-										iconType="NOTIFICATIONS"
+						<m:MaterialLink activates="sideNav" iconType="NOTIFICATIONS"
 										iconPosition="NONE"/>
 					</m:MaterialTooltip>
 					<m:MaterialTooltip text="Search" position="BOTTOM">
@@ -48,8 +45,7 @@
 			</m:MaterialNavBar>
 
 			<!-- Search Bar -->
-			<m:MaterialNavBar ui:field="navBarSearch" backgroundColor="WHITE"
-							  visible="false">
+			<m:MaterialNavBar ui:field="navBarSearch" backgroundColor="WHITE" visible="false">
 				<m:MaterialSearch ui:field="txtSearch" placeholder="Keyword"
 								  textColor="BLACK" active="true"/>
 			</m:MaterialNavBar>

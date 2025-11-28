@@ -30,8 +30,11 @@ public class GwtMaterialEntryPoint implements EntryPoint {
 
 	@Override
 	public void onModuleLoad() {
-		HelloWorldView helloWorldView = new HelloWorldView();
+		// GridSimple gridSimple = new GridSimple();
+		// id="gridSimple" см. в public/index.html
+		// RootPanel.get("gridSimple").add(gridSimple);
 
+		HelloWorldView helloWorldView = new HelloWorldView();
 		// см. в public/index.html <div id="mainPanel" />
 		RootPanel.get("mainPanel").add(helloWorldView);
 
