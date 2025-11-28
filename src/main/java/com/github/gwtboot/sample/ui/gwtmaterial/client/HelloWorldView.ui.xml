@@ -59,32 +59,36 @@
 		<m:MaterialPanel>
 			<m:MaterialRow>
 				<m:MaterialColumn grid="s12 m4">
-					<m:MaterialTitle title="Material is the metaphor"
-									 description="The metaphor of material defines the relationship between space and motion. The idea is that the technology is inspired by paper and ink and is utilized to facilitate creativity and innovation. Surfaces and edges provide familiar visual cues that allow users to quickly understand the technology beyond the physical world."/>
+					<m:MaterialTitle title="MaterialColumn 1"
+									 description="Width &lt;s12 m4&gt;. This is description. The metaphor of material defines the relationship between space and motion. The idea is that the technology is inspired by paper and ink and is utilized to facilitate creativity and innovation. Surfaces and edges provide familiar visual cues that allow users to quickly understand the technology beyond the physical world."/>
 				</m:MaterialColumn>
 				<m:MaterialColumn grid="s12 m4">
-					<m:MaterialTitle title="Bold, graphic, intentional"
-									 description="Elements and components such as grids, typography, color, and imagery are not only visually pleasing, but also create a sense of hierarchy, meaning, and focus. Emphasis on different actions and components create a visual guide for users."/>
+					<m:MaterialTitle title="MaterialColumn 2"
+									 description="Width &lt;s12 m4&gt;. This is description. Elements and components such as grids, typography, color, and imagery are not only visually pleasing, but also create a sense of hierarchy, meaning, and focus. Emphasis on different actions and components create a visual guide for users."/>
 				</m:MaterialColumn>
 				<m:MaterialColumn grid="s12 m4">
-					<m:MaterialTitle title="Motion provides meaning"
-									 description="Motion allows the user to draw a parallel between what they see on the screen and in real life. By providing both feedback and familiarity, this allows the user to fully immerse him or herself into unfamiliar technology. Motion contains consistency and continuity in addition to giving users additional subconscious information about objects and transformations."/>
+					<m:MaterialTitle title="MaterialColumn 3"
+									 description="Width &lt;s12 m4&gt;. This is description. Motion allows the user to draw a parallel between what they see on the screen and in real life. By providing both feedback and familiarity, this allows the user to fully immerse him or herself into unfamiliar technology. Motion contains consistency and continuity in addition to giving users additional subconscious information about objects and transformations."/>
 				</m:MaterialColumn>
 			</m:MaterialRow>
 			<m:MaterialRow>
 				<m:MaterialColumn grid="s12 m12">
-					<m:MaterialButton ui:field="showButton" text="Button"
+					<m:MaterialButton ui:field="idSimpleButton" text="Button"
 									  waves="LIGHT" textColor="WHITE"
 									  iconType="POLYMER" iconPosition="LEFT"/>
-					<m:MaterialButton margin="8" type="FLOATING" waves="LIGHT"
+					<m:MaterialButton ui:field="idCakeButton"
+									  margin="8" type="FLOATING" waves="LIGHT"
 									  size="LARGE" backgroundColor="RED"
 									  iconType="CAKE"/>
-					<m:MaterialButton margin="8" type="FLOATING" waves="LIGHT"
+					<m:MaterialButton ui:field="idAndroidButton"
+							          margin="8" type="FLOATING" waves="LIGHT"
 									  size="LARGE" iconType="ANDROID"/>
-					<m:MaterialButton margin="8" type="FLOATING" waves="LIGHT"
+					<m:MaterialButton ui:field="idDisableButton"
+									  margin="8" type="FLOATING" waves="LIGHT"
 									  size="LARGE" iconType="MESSAGE"
 									  enabled="false"/>
-					<m:MaterialButton margin="8" type="FLOATING" waves="LIGHT"
+					<m:MaterialButton ui:field="idGroupButton"
+									  margin="8" type="FLOATING" waves="LIGHT"
 									  size="LARGE" iconType="GROUP"/>
 				</m:MaterialColumn>
 			</m:MaterialRow>

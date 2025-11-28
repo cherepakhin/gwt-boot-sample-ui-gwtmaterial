@@ -42,11 +42,10 @@ public class HelloWorldView extends Composite {
 	interface HelloWorldViewUiBinder extends UiBinder<Widget, HelloWorldView> {
 	}
 
-	private static HelloWorldViewUiBinder uiBinder = GWT
-			.create(HelloWorldViewUiBinder.class);
+	private static HelloWorldViewUiBinder uiBinder = GWT.create(HelloWorldViewUiBinder.class);
 
-	@UiField
-	MaterialButton showButton;
+//	@UiField
+//	MaterialButton showButton;
 
 	@UiField
 	MaterialDropDown<?> foodDropDown;
@@ -55,16 +54,35 @@ public class HelloWorldView extends Composite {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
 
-	@UiHandler("showButton")
-	void handleShowButtonClick(ClickEvent e) {
-		foodDropDown.getItems().forEach(item -> {
-			MaterialToast.fireToast(item.toString());
-			logger.info(item.toString());
-		});
+	// обработчик нажатия на кнопку с id "simpleButton" (см. HelloWorldView.ui.xml)
+	@UiHandler("idSimpleButton")
+	void handleShowSimpleButtonClick(ClickEvent e) {
+		logger.info("Click on SimpleButton");
+	}
+
+	@UiHandler("idCakeButton")
+	void handleCakeButtonClick(ClickEvent e) {
+		logger.info("Click on CakeButton");
+	}
+
+	@UiHandler("idAndroidButton")
+	void handleAndroidBtnClick(ClickEvent e) {
+		logger.info("Click on AndroidButton");
+	}
+
+	@UiHandler("idGroupButton")
+	void handleGroupBtnClick(ClickEvent e) {
+		logger.info("Click on GroupButton");
 	}
 
 	@UiHandler("foodDropDown")
 	void handleDropdown(SelectionEvent<Widget> callback) {
+		// INFO: Selected title: Second
+		logger.info("Selected title: " + callback.getSelectedItem().getElement().getInnerText());
+
+		// INFO: Click on Second
+		logger.info("Click on " +((MaterialLink) callback.getSelectedItem()).getText());
+		// Всплывающее сообщение
 		MaterialToast.fireToast(
 				"Selected : " + ((MaterialLink) callback.getSelectedItem())
 						.getText());
